@@ -21,7 +21,7 @@ export default function Home() {
         </p>
         <h2>TECHNICAL SKILLS</h2>
         <p> JavaScript, TypeScript, Nextjs, React, Node.js </p>
-        <h2>PROJECTS</h2>
+        <h2>PROJECTS </h2>
       </main>
       <footer className={styles.footer}></footer>
     </div>
