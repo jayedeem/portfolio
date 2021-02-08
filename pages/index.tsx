@@ -20,7 +20,7 @@ export default function Home() {
           of Orange County, CA.
         </p>
         <h2>TECHNICAL SKILLS</h2>
-        <p> JavaScript, TypeScript, Nextjs, React, Node.js </p>
+        <p> JavaScript, TypeScript, Nextjs, Reactjs, Node.js </p>
         <h2>PROJECTS </h2>
       </main>
       <footer className={styles.footer}></footer>
