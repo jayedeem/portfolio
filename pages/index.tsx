@@ -14,7 +14,14 @@ export default function Home() {
         <h1>Full Stack Web Developer</h1>
         <small>Github</small>
         <small>Email</small>
-        <h3>ABOUT ME</h3>
+        <h2>ABOUT ME</h2>
+        <p>
+          My name is Andrew Cacayuran and I am a Full Stack Developer based out
+          of Orange County, CA.
+        </p>
+        <h2>TECHNICAL SKILLS</h2>
+        <p> JavaScript, TypeScript, Nextjs, React, Node.js </p>
+        <h2>PROJECTS</h2>
       </main>
       <footer className={styles.footer}></footer>
     </div>
