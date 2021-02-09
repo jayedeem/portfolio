@@ -1,13 +1,14 @@
-import { NextComponentType } from 'next'
-import { ReactNode } from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
 import '../styles/globals.css'
 import Layout from './components/Layout'
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ChakraProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ChakraProvider>
   )
 }
 

@@ -1,15 +1,8 @@
-import { defaultCipherList } from 'constants'
 import { NextComponentType } from 'next'
-import { ReactNode } from 'react'
+import Navbar from './Navbar'
 
 const Layout: NextComponentType = ({ children }) => {
-  return (
-    <>
-      <header>Header here</header>
-      {children}
-      <footer>Footer Here</footer>
-    </>
-  )
+  return <>{children}</>
 }
 
 export default Layout
